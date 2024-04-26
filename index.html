@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="Description" content="Enter your description here" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Tech Solutions</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Tech Solutions</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ms-auto">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link" href="#">Services</a>
+          <a class="nav-link" href="#">About Us</a>
+          <a class="nav-link" href="#">Contact</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <section class="services mt-4">
+    <div class="container">
+      <h2 class="text-center mb-4">Our Services</h2>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="support.png" class="card-img-top" alt="Service 1 Icon">
+            <div class="card-body">
+              <h5 class="card-title">IT Support & Maintenance</h5>
+              <p class="card-text">Troubleshoot computer issues, install software, network management, and data backup
+                solutions.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="design.png" class="card-img-top" alt="Service 2 Icon">
+            <div class="card-body">
+              <h5 class="card-title">Web Design & Development</h5>
+              <p class="card-text">Help businesses create and maintain professional websites, e-commerce platforms or
+                mobile applications.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="cyber.png" class="card-img-top" alt="Service 3 Icon">
+            <div class="card-body">
+              <h5 class="card-title">Cybersecurity Solutions</h5>
+              <p class="card-text">Set up firewalls, antivirus software, data encryption, and security training to
+                protect from cyberattacks.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about mt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h2>About Tech Solutions</h2>
+          <p>We are a leading provider of comprehensive IT solutions, empowering businesses to thrive
+            in today's digital age. We recognize the critical role technology plays and bridge the gap
+            between your needs and its potential. Our certified professionals deliver a personalized approach,
+            ensuring your IT infrastructure is reliable, secure, and optimized to propel your business forward.
+            From proactive IT support and user-friendly web development to robust cybersecurity solutions,
+            we are your one-stop shop for unlocking technology's power to drive success.</p>
+        </div>
+        <div class="col-md-6">
+          <h3>Why Choose Us?</h3>
+          <ul>
+            <li><b>Experienced & Certified Professionals:</b> Our team is comprised of highly skilled
+              and certified IT professionals with extensive experience in various technologies.</li>
+            <li><b>Scalable Solutions:</b> We offer customized solutions that scale with your business needs,
+              ensuring you have the right technology in place to support your growth.</li>
+            <li><b>Focus on Client Satisfaction:</b> We are committed to providing exceptional customer service
+              and building long-term relationships with our clients.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact mt-4">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <form id="contactForm" method="post">
+        <div class="mb-3">
+          <label for="name" class="form-label">Your Name</label>
+          <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name">
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email Address</label>
+          <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email">
+        </div>
+        <div class="mb-3">
+          <label for="service" class="form-label">Service Interested In</label>
+          <select class="form-select" id="service" name="service">
+            <option value="">Select a Service</option>
+            <option value="it-support">IT Support & Maintenance</option>
+            <option value="web-design">Web Design & Development</option>
+            <option value="cybersecurity">Cybersecurity Solutions</option>
+          </select>
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Message</label>
+          <textarea class="form-control" id="message" name="message" rows="3" placeholder="Enter your message"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
